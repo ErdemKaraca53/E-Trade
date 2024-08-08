@@ -8,7 +8,7 @@ import (
 func DBConn() (db *sql.DB) {
 
 	dbDriver := "mysql"
-	dbUser := "root"
+	dbUser := "erdem"
 	dbPass := "12345"
 	dbName := "etrade"
 	db, err := sql.Open(dbDriver, dbUser+":"+dbPass+"@/"+dbName)
