@@ -1,7 +1,6 @@
 package Test
 
 import (
-	"fmt"
 	"module/utils"
 	"strconv"
 	"testing"
@@ -36,7 +35,6 @@ var Locations = []utils.Locations{
 var db = TestDbConn()
 
 func TestWriteInOrder(t *testing.T) {
-	fmt.Println()
 	tests := []struct {
 		name            string
 		baskets         []utils.Basket
